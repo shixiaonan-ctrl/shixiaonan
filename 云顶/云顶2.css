@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    padding:0;
+}
+.div{
+    margin:auto;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    overflow-x: visible;
+}
+.first{
+    position: absolute;
+}
+.top{
+        position:absolute;
+        width:450px;
+        height:15px;
+        display:flex;
+        justify-content:space-between;
+        top:70px;
+        left:100.5px;
+}
+.today:active{color:aqua}
+.news:active{color:aqua}
+.offer:active{color:aqua}
+.campus:active{color:aqua}
+.mine:active{color:aqua}
+.dog{
+        border-radius: 50%;
+        position: absolute;
+        left: 576px;
+        top: 37px;
+        width: 24px;
+        height: 24px;
+        z-index: 2;
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:black;
+  text-decoration: none;
+}
+.font{
+        position: absolute;
+        width:80px;
+        top:150px;
+        left:560px;
+        height:15px;
+        bottom:50px;
+        animation: downs 2s linear infinite;
+        text-decoration: none;
+}
+.board{
+        position:absolute;
+        top:175px;
+        left:100px;
+        height:100px;
+        width:450px;
+}
+.main1{
+        position: absolute;
+        display:flex;
+        flex-direction:column;
+        top:182px;
+        left:118px;
+        height:131px;
+        width:15px;
+        justify-content:space-between;      
+}
+.main2{
+        position: absolute;
+        top:181px;
+        left:155px;
+        height:131px;
+        width:100px; 
+        display:flex;
+        flex-direction:column;
+        font-size: 10px;
+        font-family: "PingFangSC";
+        color: rgb(153, 153, 153);
+        line-height: 1.2; 
+        justify-content:space-between;
+}
+.main3{
+        position: absolute;
+        top:181px;
+        left:375px;
+        height:131px;
+        width:60px; 
+        display:flex;
+        flex-direction:column;
+        font-size: 10px;
+        font-family: "PingFangSC";
+        color: rgb(153, 153, 153);
+        line-height: 1.2; 
+        justify-content:space-between; 
+}
+.fun1 { 
+        position:absolute;
+        top:183px;
+        left:450px;
+        height:125px;
+        width:40px;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+}
+.fun2 {
+        position:absolute;
+        top:183px;
+        left:500px;
+        height:125px;
+        width:40px;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+}
+.tip{
+        position: absolute;
+        left: 62.55px;
+        top: 175.4px;
+        width:20px;
+        height:21px;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+}
+.last{
+        font-size: 10px;
+        font-family: "PingFangSC";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        text-align: left;
+        position: absolute;
+        left: 566.553px;
+        top: 297.8px;
+}
+
+
+
